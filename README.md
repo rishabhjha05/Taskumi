@@ -30,6 +30,7 @@ Instead of overwhelming you with an endless task list, Taskumi limits your daily
 ## 📸 Preview
 
 ![Taskumi Preview](./media/taskumiScreenshot.png)
+![Taskumi Preview](./media/Dekstop.png)
 
 
 ## 🚀 Getting Started
