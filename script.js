@@ -133,6 +133,8 @@ addTask.addEventListener('click', (e) => {
         localStorage.setItem('data', JSON.stringify(goals));
       } else document.querySelector('.error-msg').classList.add('throw-error');
     });
+    changeProgress();
+
   } else {
     const error = document.querySelector('.sec-error');
     error.classList.add('throw-error');
