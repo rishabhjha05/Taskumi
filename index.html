@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./media/sun.svg">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 class="main-header"><span>Focus on</span> Today</h1>
+      <div class="container">
+        <div class="sub-heading">
+          <h2>Today</h2>
+          <figure class="icon">
+            <img class="sun" src="./media/sun.svg" alt="sunIcon" />
+            <img class="inner-face" src="./media/face.svg" />
+          </figure>
+        </div>
+        <p class="progress-quote">Raise the bar by completing your goals!</p>
+        <div class="progress">
+          <div class="progress-indicator">
+            <div class="progress-value"></div>
+          </div>
+          <p class="error-msg">Please set all goals!</p>
+          <p class="error-msg sec-error">
+            You can not add more than 5 task a day!
+          </p>
+        </div>
+        <div class="task-container">
+          <div class="task">
+            <div class="custom-checkBox">
+              <img src="./media/check.svg" alt="check-icon" />
+            </div>
+            <input type="text" id="task1" placeholder="Add new goal..." />
+          </div>
+          <div class="task">
+            <div class="custom-checkBox">
+              <img src="./media/check.svg" alt="check-icon" />
+            </div>
+            <input type="text" id="task2" placeholder="Add new goal..." />
+          </div>
+          <div class="task">
+            <div class="custom-checkBox">
+              <img src="./media/check.svg" alt="check-icon" />
+            </div>
+            <input type="text" id="task3" placeholder="Add new goal..." />
+          </div>
+        </div>
+
+        <div class="btns">
+          <button class="add-task">Add a task</button>
+          <button class="clear-all">Clear All</button>
+        </div>
+        <h4 class="moto">“Move one step ahead, today!”</h4>
+        <p class="courtesy">Made with ❤️ by Rishabh Jha</p>
+      </div>
+    </main>
+  </body>
+</html>
